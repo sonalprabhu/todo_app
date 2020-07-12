@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.jumbotron{
+  background-color: #9575CD;
+  color: floralwhite;
+}
+
+.bar{
+  background-color: black;
+}
+
+.card{
+  width: 18rem;
+  margin: 20px 0px 20px 0px;
+}
+
+.in{
+  margin: 0 auto;
+  background-color:rgb(228, 169, 42);
+}
+
+.banner{
+  background-color: rgb(34, 12, 73)
+}
+
