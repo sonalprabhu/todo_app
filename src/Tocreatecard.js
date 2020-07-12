@@ -13,7 +13,7 @@ return(
 <div className="card text-center">
   <div className="card-body">
   <h5 className="card-title">
-  <input type="button" className="btn btn-primary" checked={ this.props.item.done }
+  <input type="button" className="btn btn-primary" 
   onClick={ () => this.props.callback(this.props.item) } value="Done"
 />
   </h5>

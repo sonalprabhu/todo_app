@@ -49,7 +49,7 @@ import {Todocreate} from "./Todocreate.js";
         ? { ...item, done: !item.done } : item) });
 
     render =() =>
-     <div>
+     <div className="cards">
         <div className="jumbotron">
         <div className="banner">
         <Todobanner name={ this.state.name } tasks={this.state.itemList }/> 
@@ -58,7 +58,7 @@ import {Todocreate} from "./Todocreate.js";
         <Todocreate callback={ this.createNewTodo }/>
           </div> 
         </div>
-        <div>
+        <div className="cards">
         <div className="row d-flex justify-content-center">
         {this.todocards()}
         
